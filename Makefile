@@ -11,8 +11,7 @@ setup:
 
 install:
 	pip install numpy==1.17.2
-	pip install --upgrade pip &&\
-	pip install -vr requirements.txt
+	pip install --upgrade pip && pip install -vr requirements.txt
 
 test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py

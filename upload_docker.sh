@@ -10,7 +10,7 @@ export dockerpath=ernestvoon/house-prediction-app:1.0
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-
+docker login
 # Step 3:
 # Push image to a docker repository
 docker push $dockerpath
