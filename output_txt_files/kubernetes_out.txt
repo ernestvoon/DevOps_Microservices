@@ -1,3 +1,8 @@
+deployment.apps/house-prediction-app created
+NAME                                    READY   STATUS              RESTARTS   AGE
+house-prediction-app-5889f7fb6c-qc8wh   0/1     ContainerCreating   0          0s
+service/house-prediction-app exposed
+
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.
